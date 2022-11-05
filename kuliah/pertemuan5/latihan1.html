@@ -58,16 +58,21 @@
         border-radius: 50%;
         transform: rotate(405deg);
         background-color: chartreuse;
+        display: flex;
       }
       .kotak-kecil {
         width: 75px;
         height: 75px;
         background-color: red;
-        transition: 3s;
+        transition: 2s;
       }
       .kotak-kecil:hover {
         transform: rotate(450deg);
         background-color: chartreuse;
+      }
+      .unpas {
+        transform: rotate(225deg);
+        margin: auto;
       }
     </style>
   </head>
@@ -98,7 +103,9 @@
 
     <div class="kotak">
       <div class="kotak-kecil">
-        <div><img src="unpas.png" alt="" /></div>
+        <div class="unpas">
+          <img src="unpas.png" alt="" width="'75px" height="75px" />
+        </div>
       </div>
     </div>
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
