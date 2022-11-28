@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 2000px;
+      }
+      .kotak1 {
+        width: 150px;
+        height: 150px;
+        background-color: rgba(250, 128, 114, 0.5);
+        margin: auto;
+        border-radius: 50px;
+        border-top-left-radius: 0;
+        /* background-image: url(img/img1.png);
+        background-size: cover; */
+        opacity: 1;
+        position: relative;
+        z-index: 10;
+        overflow: hidden;
+      }
+      p {
+        position: relative;
+        top: -100px;
+      }
+
+      .kotak2 {
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        margin: auto;
+        /* box-shadow: [insert] <x-offset> <y-offset> <blur> [size] <color>; */
+        box-shadow: 10px 10px 5px rgba(255, 0, 0, 0.3), -10px -10px 5px blue,
+          10px -10px 5px orange;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 100px;
+        font-family: arial;
+        font-size: 100px;
+        color: white;
+        text-shadow: 2px 2px 0 red;
+        box-shadow: 2px 2px 2px red;
+      }
+
+      .kotak3 {
+        width: 200px;
+        height: 200px;
+        background-color: lightgreen;
+        margin: auto;
+        /* transform: translate(x, y); scale(x.y) skew(-miringkanan +miringkiri ...deg) rotate(...deg) */
+        font-size: 50px;
+        text-align: center;
+        line-height: 200px;
+        transition: 2s;
+      }
+
+      .kotak3:hover {
+        transform: rotate(720deg);
+        transition: 2s background-color, 3s 2s transform, 3s border-radius 5s,
+          3s 2s;
+        background-color: red;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, pariatur!
+    </div>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt maiores
+      saepe inventore velit aut illum eligendi suscipit? Iste quam reiciendis
+      quae est mollitia labore, nisi recusandae hic officia iusto cupiditate
+      nemo pariatur error, similique fugiat dolores, odit amet? Laborum et
+      numquam unde tenetur aliquam porro aut ex cum repellat quas!
+    </p>
+
+    <div class="kotak2"></div>
+
+    <h1>Diaz Alfiari Rachmad</h1>
+
+    <div class="kotak3">1</div>
+  </body>
+</html>
